@@ -1,0 +1,55 @@
+1. Game Setup:  
+   - The game includes one dealer and multiple players (e.g., Player 1, Player 2,Player 3,Player 4,Player 5, etc.).  
+   - At the start of the game:  
+     - Each player is given 1,000 coins.  
+     - The dealer starts with 10,000 coins.  
+
+2. Gameplay Mechanics:  
+
+     - If a player's score is higher than the dealer's score, that player wins and earns 100 coins from the dealer.  
+     - If the dealer's score is higher than  player's score, the player loses 100 coins, and the dealer collects those coins frpm player who score lower than dealer.  
+   - The dealer must pay 100 coins to  player who win their score in the first round it mean after deal 2 card .  
+
+3. Win/Loss Conditions:  
+   - Dealer Losing the Round:  
+     - If multiple players win the dealer, the dealer pays 100 coins to winning player.  
+   - Dealer Winning the Round:  
+     - If the dealer win or ties a player's score, the player forfeits 100 coins, and the dealer collects these coins.  
+     - If dealer win score lower then palyer dealer will not get from player too
+
+4. Result Calculation Example:  
+   - Suppose the dealer scores 2 and the players have the following scores:  
+     - Player 1: 8 (Win) → Gains 100 coins.  
+     - Player 2: 5 → Gains 100 coins.  
+     - Player 3: 7 → Gains 100 coins.  
+     - Player 4: 9 (Win) → Gains 100 coins.  
+     - Player 5: 4 → Gains 100 coins.  
+   - The dealer loses 100 coins to each player (total loss: 500 coins).  
+
+
+5. Game Example:  
+   - Save the results after every round into a jTable_game_store_info_coin_player_and_dealer. The table should include the following columns:  
+     - Game Number: The current game round.  
+     - Dealer Coins: The dealer's remaining balance after the game.  
+     - Player Balances: The coin balances for each player after the game. 
+
+      
+   - Example table after the first game:  
+    
+     Game, Dealer, Player 1, Player 2, Player 3, Player 4, Player 5
+     1,   9500,   1100,     1100,     1100,     1100,     1100
+    
+   - If the same players win again in the next game, the table might look like this:  
+    
+     2,   9000,   1200,     1200,     1200,     1200,     1200
+    
+
+6. Elimination and Rebalancing:  
+   - A player who has zero coins is eliminated and cannot participate in the next game.  
+   - If the dealer's coins reach zero, automatically replenish the dealer's coins (e.g., reset to 10,000 coins).  
+
+7. Game End Conditions:  
+   - The game ends when:  
+     - The dealer or all players are eliminated.  
+     - A predefined number of rounds is reached.  
+
