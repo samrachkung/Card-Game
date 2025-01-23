@@ -786,6 +786,7 @@ public class Main_game extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jTable_game_store_info_coin_player_and_dealer.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(0, 0, 0), new java.awt.Color(51, 51, 51)));
         jTable_game_store_info_coin_player_and_dealer.setFont(new java.awt.Font("JetBrains Mono", 1, 12)); // NOI18N
         jTable_game_store_info_coin_player_and_dealer.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -836,8 +837,11 @@ public class Main_game extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(jTable_game_store_info_coin_player_and_dealer);
 
+        jButton_start_game.setBackground(new java.awt.Color(0, 0, 0));
         jButton_start_game.setFont(new java.awt.Font("JetBrains Mono", 1, 12)); // NOI18N
+        jButton_start_game.setForeground(new java.awt.Color(102, 255, 102));
         jButton_start_game.setText("START GAME");
+        jButton_start_game.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton_start_game.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton_start_gameActionPerformed(evt);
@@ -854,8 +858,11 @@ public class Main_game extends javax.swing.JFrame {
         Jlabel_store_table_coin.setForeground(new java.awt.Color(255, 255, 255));
         Jlabel_store_table_coin.setText("GAME COIN");
 
+        jButton_for_dealer_add_1_more_card.setBackground(new java.awt.Color(0, 0, 0));
         jButton_for_dealer_add_1_more_card.setFont(new java.awt.Font("JetBrains Mono", 1, 12)); // NOI18N
+        jButton_for_dealer_add_1_more_card.setForeground(new java.awt.Color(255, 102, 0));
         jButton_for_dealer_add_1_more_card.setText("ADD MORE DEALER CARD");
+        jButton_for_dealer_add_1_more_card.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton_for_dealer_add_1_more_card.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton_for_dealer_add_1_more_cardActionPerformed(evt);
@@ -867,8 +874,11 @@ public class Main_game extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("DEALER");
 
+        jButton_for_player1_stop_player_this_game.setBackground(new java.awt.Color(0, 0, 0));
         jButton_for_player1_stop_player_this_game.setFont(new java.awt.Font("JetBrains Mono", 1, 12)); // NOI18N
+        jButton_for_player1_stop_player_this_game.setForeground(new java.awt.Color(255, 0, 0));
         jButton_for_player1_stop_player_this_game.setText("STOP PLAY");
+        jButton_for_player1_stop_player_this_game.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton_for_player1_stop_player_this_game.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton_for_player1_stop_player_this_gameActionPerformed(evt);
@@ -880,24 +890,33 @@ public class Main_game extends javax.swing.JFrame {
         jLabel_player1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel_player1.setText("PLAYER 1");
 
+        jButton_for_player1_add_1_more_card.setBackground(new java.awt.Color(0, 0, 0));
         jButton_for_player1_add_1_more_card.setFont(new java.awt.Font("JetBrains Mono", 1, 12)); // NOI18N
+        jButton_for_player1_add_1_more_card.setForeground(new java.awt.Color(255, 102, 0));
         jButton_for_player1_add_1_more_card.setText("ADD MORE CARD");
+        jButton_for_player1_add_1_more_card.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton_for_player1_add_1_more_card.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton_for_player1_add_1_more_cardActionPerformed(evt);
             }
         });
 
+        jButton_for_player5_stop_player_this_game.setBackground(new java.awt.Color(0, 0, 0));
         jButton_for_player5_stop_player_this_game.setFont(new java.awt.Font("JetBrains Mono", 1, 12)); // NOI18N
+        jButton_for_player5_stop_player_this_game.setForeground(new java.awt.Color(255, 0, 0));
         jButton_for_player5_stop_player_this_game.setText("STOP PLAY");
+        jButton_for_player5_stop_player_this_game.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton_for_player5_stop_player_this_game.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton_for_player5_stop_player_this_gameActionPerformed(evt);
             }
         });
 
+        jButton_for_player5_add_1_more_card.setBackground(new java.awt.Color(0, 0, 0));
         jButton_for_player5_add_1_more_card.setFont(new java.awt.Font("JetBrains Mono", 1, 12)); // NOI18N
+        jButton_for_player5_add_1_more_card.setForeground(new java.awt.Color(255, 102, 0));
         jButton_for_player5_add_1_more_card.setText("ADD MORE CARD");
+        jButton_for_player5_add_1_more_card.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton_for_player5_add_1_more_card.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton_for_player5_add_1_more_cardActionPerformed(evt);
@@ -909,24 +928,33 @@ public class Main_game extends javax.swing.JFrame {
         jLabel_player5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel_player5.setText("PLAYER 5");
 
+        jButton_start_next_game.setBackground(new java.awt.Color(0, 0, 0));
         jButton_start_next_game.setFont(new java.awt.Font("JetBrains Mono", 1, 12)); // NOI18N
+        jButton_start_next_game.setForeground(new java.awt.Color(51, 255, 102));
         jButton_start_next_game.setText("START NEW GAME");
+        jButton_start_next_game.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton_start_next_game.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton_start_next_gameActionPerformed(evt);
             }
         });
 
+        jButton_check_winner.setBackground(new java.awt.Color(0, 0, 0));
         jButton_check_winner.setFont(new java.awt.Font("JetBrains Mono", 1, 12)); // NOI18N
+        jButton_check_winner.setForeground(new java.awt.Color(255, 255, 0));
         jButton_check_winner.setText("CHECK WINNER");
+        jButton_check_winner.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton_check_winner.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton_check_winnerActionPerformed(evt);
             }
         });
 
+        jButton_add_random_card_to_player_and_dealer.setBackground(new java.awt.Color(0, 0, 0));
         jButton_add_random_card_to_player_and_dealer.setFont(new java.awt.Font("JetBrains Mono", 1, 12)); // NOI18N
+        jButton_add_random_card_to_player_and_dealer.setForeground(new java.awt.Color(51, 255, 51));
         jButton_add_random_card_to_player_and_dealer.setText("DEAL CARD TO PLAYER");
+        jButton_add_random_card_to_player_and_dealer.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton_add_random_card_to_player_and_dealer.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton_add_random_card_to_player_and_dealerActionPerformed(evt);
@@ -938,16 +966,22 @@ public class Main_game extends javax.swing.JFrame {
         jLabel_player2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel_player2.setText("PLAYER 2");
 
+        jButton_for_player2_add_1_more_card.setBackground(new java.awt.Color(0, 0, 0));
         jButton_for_player2_add_1_more_card.setFont(new java.awt.Font("JetBrains Mono", 1, 12)); // NOI18N
+        jButton_for_player2_add_1_more_card.setForeground(new java.awt.Color(255, 102, 0));
         jButton_for_player2_add_1_more_card.setText("ADD MORE CARD");
+        jButton_for_player2_add_1_more_card.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton_for_player2_add_1_more_card.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton_for_player2_add_1_more_cardActionPerformed(evt);
             }
         });
 
+        jButton_for_player2_stop_player_this_game.setBackground(new java.awt.Color(0, 0, 0));
         jButton_for_player2_stop_player_this_game.setFont(new java.awt.Font("JetBrains Mono", 1, 12)); // NOI18N
+        jButton_for_player2_stop_player_this_game.setForeground(new java.awt.Color(255, 0, 0));
         jButton_for_player2_stop_player_this_game.setText("STOP PLAY");
+        jButton_for_player2_stop_player_this_game.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton_for_player2_stop_player_this_game.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton_for_player2_stop_player_this_gameActionPerformed(evt);
@@ -959,16 +993,22 @@ public class Main_game extends javax.swing.JFrame {
         jLabel_player3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel_player3.setText("PLAYER 3");
 
+        jButton_for_player3_stop_player_this_game.setBackground(new java.awt.Color(0, 0, 0));
         jButton_for_player3_stop_player_this_game.setFont(new java.awt.Font("JetBrains Mono", 1, 12)); // NOI18N
+        jButton_for_player3_stop_player_this_game.setForeground(new java.awt.Color(255, 0, 0));
         jButton_for_player3_stop_player_this_game.setText("STOP PLAY");
+        jButton_for_player3_stop_player_this_game.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton_for_player3_stop_player_this_game.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton_for_player3_stop_player_this_gameActionPerformed(evt);
             }
         });
 
+        jButton_for_player3_add_1_more_card.setBackground(new java.awt.Color(0, 0, 0));
         jButton_for_player3_add_1_more_card.setFont(new java.awt.Font("JetBrains Mono", 1, 12)); // NOI18N
+        jButton_for_player3_add_1_more_card.setForeground(new java.awt.Color(255, 102, 0));
         jButton_for_player3_add_1_more_card.setText("ADD MORE CARD");
+        jButton_for_player3_add_1_more_card.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton_for_player3_add_1_more_card.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton_for_player3_add_1_more_cardActionPerformed(evt);
@@ -980,16 +1020,22 @@ public class Main_game extends javax.swing.JFrame {
         jLabel_player4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel_player4.setText("PLAYER 4");
 
+        jButton_for_player4_stop_player_this_game.setBackground(new java.awt.Color(0, 0, 0));
         jButton_for_player4_stop_player_this_game.setFont(new java.awt.Font("JetBrains Mono", 1, 12)); // NOI18N
+        jButton_for_player4_stop_player_this_game.setForeground(new java.awt.Color(255, 0, 0));
         jButton_for_player4_stop_player_this_game.setText("STOP PLAY");
+        jButton_for_player4_stop_player_this_game.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton_for_player4_stop_player_this_game.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton_for_player4_stop_player_this_gameActionPerformed(evt);
             }
         });
 
+        jButton_for_player4_add_1_more_card.setBackground(new java.awt.Color(0, 0, 0));
         jButton_for_player4_add_1_more_card.setFont(new java.awt.Font("JetBrains Mono", 1, 12)); // NOI18N
+        jButton_for_player4_add_1_more_card.setForeground(new java.awt.Color(255, 102, 0));
         jButton_for_player4_add_1_more_card.setText("ADD MORE CARD");
+        jButton_for_player4_add_1_more_card.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jButton_for_player4_add_1_more_card.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton_for_player4_add_1_more_cardActionPerformed(evt);
@@ -1024,40 +1070,6 @@ public class Main_game extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addGroup(layout.createSequentialGroup()
-                                    .addGap(564, 564, 564)
-                                    .addComponent(jLabel_player2, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(148, 148, 148))
-                                .addGroup(layout.createSequentialGroup()
-                                    .addGap(165, 165, 165)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                                            .addComponent(jButton_for_player1_stop_player_this_game)
-                                            .addGap(27, 27, 27)
-                                            .addComponent(jButton_for_player1_add_1_more_card))
-                                        .addGroup(layout.createSequentialGroup()
-                                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                .addComponent(jLabel_player1, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGroup(layout.createSequentialGroup()
-                                                    .addComponent(jLabel_player1_card_1, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                    .addComponent(jLabel_player1_card_2, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                            .addComponent(jLabel_player1_add_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jLabel_player2_card_2, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                    .addComponent(jLabel_player2_card_1, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                    .addComponent(jLabel_player2_add_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(60, 60, 60)))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(505, 505, 505)
-                                .addComponent(jButton_for_player2_stop_player_this_game)
-                                .addGap(26, 26, 26)
-                                .addComponent(jButton_for_player2_add_1_more_card)
-                                .addGap(64, 64, 64))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
@@ -1070,8 +1082,49 @@ public class Main_game extends javax.swing.JFrame {
                                         .addComponent(jLabel4)))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(jLabel_dealer_add_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(235, 235, 235)))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGap(235, 235, 235))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(564, 564, 564)
+                                        .addComponent(jLabel_player2, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addGroup(layout.createSequentialGroup()
+                                            .addContainerGap()
+                                            .addComponent(jButton_for_player2_stop_player_this_game, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addGap(42, 42, 42)
+                                            .addComponent(jButton_for_player2_add_1_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                            .addGap(165, 165, 165)
+                                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                                .addGroup(layout.createSequentialGroup()
+                                                    .addComponent(jButton_for_player1_stop_player_this_game, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                    .addComponent(jButton_for_player1_add_1_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                .addGroup(layout.createSequentialGroup()
+                                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                                        .addComponent(jLabel_player1, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addGroup(layout.createSequentialGroup()
+                                                            .addComponent(jLabel_player1_card_1, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                                            .addComponent(jLabel_player1_card_2, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                                    .addComponent(jLabel_player1_add_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                            .addGap(31, 31, 31)
+                                            .addComponent(jLabel_player2_card_2, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                            .addComponent(jLabel_player2_card_1, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                            .addComponent(jLabel_player2_add_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addGap(24, 24, 24)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel_player3_card_1, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jLabel_player3_card_2, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jLabel_player3_add_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(6, 6, 6))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addGroup(layout.createSequentialGroup()
@@ -1081,48 +1134,38 @@ public class Main_game extends javax.swing.JFrame {
                                     .addComponent(jLabel_player5, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(jLabel_player5_add_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(80, 80, 80)
-                                        .addComponent(jLabel_player3, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(65, 65, 65))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                        .addComponent(jLabel_player3_card_1, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(jLabel_player3_card_2, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(jLabel_player3_add_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(6, 6, 6)))
-                                .addGroup(layout.createSequentialGroup()
-                                    .addGap(21, 21, 21)
-                                    .addComponent(jButton_for_player3_stop_player_this_game)
-                                    .addGap(26, 26, 26)
-                                    .addComponent(jButton_for_player3_add_1_more_card)
-                                    .addGap(33, 33, 33))))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(layout.createSequentialGroup()
-                                    .addGap(147, 147, 147)
-                                    .addComponent(jLabel_player4, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGroup(layout.createSequentialGroup()
-                                    .addGap(88, 88, 88)
-                                    .addComponent(jButton_for_player4_stop_player_this_game)
-                                    .addGap(26, 26, 26)
-                                    .addComponent(jButton_for_player4_add_1_more_card)))
                             .addGroup(layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel_player4_card_1, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel_player4_card_2, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel_player4_add_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10))
+                                .addComponent(jLabel_player3, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(103, 103, 103))
                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                .addGap(21, 21, 21)
+                                .addComponent(jButton_for_player3_stop_player_this_game, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jButton_for_player3_add_1_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(30, 30, 30)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
                                 .addGap(92, 92, 92)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jButton_for_player5_add_1_more_card, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jButton_for_player5_stop_player_this_game, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))
+                                    .addComponent(jButton_for_player5_add_1_more_card, javax.swing.GroupLayout.DEFAULT_SIZE, 106, Short.MAX_VALUE)
+                                    .addComponent(jButton_for_player5_stop_player_this_game, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(18, 18, 18)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(13, 13, 13)
+                                        .addComponent(jButton_for_player4_stop_player_this_game, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(jButton_for_player4_add_1_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(jLabel_player4_card_1, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel_player4, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addGroup(layout.createSequentialGroup()
+                                                .addComponent(jLabel_player4_card_2, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                                .addComponent(jLabel_player4_add_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))))))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(17, 17, 17)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -1182,10 +1225,10 @@ public class Main_game extends javax.swing.JFrame {
                                         .addComponent(jLabel_player5_add_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addComponent(jLabel_player5_card_2, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                    .addComponent(jButton_for_player5_stop_player_this_game)
+                                    .addComponent(jButton_for_player5_stop_player_this_game, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                    .addComponent(jButton_for_player5_add_1_more_card)
-                                    .addGap(26, 26, 26)))
+                                    .addComponent(jButton_for_player5_add_1_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(17, 17, 17)))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(28, 28, 28)
@@ -1214,46 +1257,51 @@ public class Main_game extends javax.swing.JFrame {
                             .addComponent(jLabel_player1_add_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel_player1_card_2, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(12, 12, 12)
-                        .addComponent(jLabel_player1, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jButton_for_player1_stop_player_this_game)
-                            .addComponent(jButton_for_player1_add_1_more_card)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel_player3_add_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel_player3_card_2, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel_player3_card_1, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel_player3, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton_for_player3_stop_player_this_game)
-                            .addComponent(jButton_for_player3_add_1_more_card)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel_player2_add_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel_player2_card_1, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel_player2, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton_for_player2_stop_player_this_game)
-                            .addComponent(jButton_for_player2_add_1_more_card)))
-                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel_player1, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel_player4_add_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel_player4_card_1, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel_player4, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButton_for_player1_add_1_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(6, 6, 6)
+                                .addComponent(jButton_for_player1_stop_player_this_game, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel_player4_add_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel_player4_card_1, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel_player4_card_2, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton_for_player4_stop_player_this_game)
-                            .addComponent(jButton_for_player4_add_1_more_card))))
-                .addContainerGap(167, Short.MAX_VALUE))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel_player4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGap(18, 18, 18)
+                                .addComponent(jButton_for_player4_add_1_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(57, 57, 57)
+                                .addComponent(jButton_for_player4_stop_player_this_game, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel_player3_add_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel_player3_card_2, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel_player3_card_1, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jLabel_player3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel_player2_add_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel_player2_card_1, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jLabel_player2)))
+                        .addGap(20, 20, 20)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(jButton_for_player2_add_1_more_card, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jButton_for_player2_stop_player_this_game, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jButton_for_player3_stop_player_this_game, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jButton_for_player3_add_1_more_card, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                .addGap(170, 170, 170))
         );
 
         pack();

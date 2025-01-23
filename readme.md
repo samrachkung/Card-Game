@@ -74,7 +74,6 @@ This project is licensed under the Kungsamarch License.
 
 ## v1.0.0
 
-## How to Play
 
 1. **Game Setup:**
     - The game includes one dealer and multiple players (e.g., Player 1, Player 2, Player 3, Player 4, Player 5, etc.).
