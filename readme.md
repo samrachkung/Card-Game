@@ -12,7 +12,7 @@ To use this project, follow the steps below:
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/yourusername/JackPot_Game.git
+    git clone https://github.com/samrachkung/Card-Game.git
     cd JackPot_Game
     ```
 
