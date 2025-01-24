@@ -72,7 +72,11 @@ Feel free to fork this project, make improvements, and submit pull requests. Con
 
 This project is licensed under the Kungsamarch License.
 
-## v1.0.0
+## v1.5.0
+
+    - New game interface
+    - Update bug coin
+    - update rule 
 
 
 1. **Game Setup:**
